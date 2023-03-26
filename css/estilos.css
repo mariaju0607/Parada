@@ -1,0 +1,118 @@
+body {
+     background-image: url("../img/fundo_1.jpeg");
+    /* background-size: contain; */
+    /*background-color: #d08585;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(210, 94, 94);
+    border-radius: 25px;
+}
+
+article {
+    background-color: white;
+    text-align: justify;
+    width: 50%;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#menu {
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    /*width: 41%;*/
+    /*margin: 0 0 0 29%;*/
+    display: flex;
+    flex-direction: row;
+}
+
+#menu li {
+    float: left;
+}
+
+
+#menu li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(210, 94, 94);
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+ul li span {
+    float: right;
+}
+
+ul li {
+    /*border-bottom: 1px solid black;*/
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+footer {
+    background-color: rgba(231, 184, 184, 0.81);
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+.page-body {
+    flex-grow: 1;
+}
+
+header, footer {
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.btt_link {
+    text-align: center;
+    padding: 20px;
+}
+
+.btt_link a {
+    text-decoration: none;
+    color: white;
+    background-color: #e5a0a0;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.btt_link a:hover {
+    transition: 0.5s;
+    background-color: rgb(210, 94, 94);
+}
+
+#contato_btn{
+    margin-top: 40px;
+
+}
